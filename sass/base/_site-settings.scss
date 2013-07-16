@@ -1,0 +1,13 @@
+//my Variable
+
+$topbar-bg: #eee;
+$topbar-h: emCalc(35px);
+$main-background-color: #00050b;
+$main-color: #ececec; /* mini-bar main color */
+$main-bar-color: rgb(7, 192, 218);
+
+/* sprites */
+$sprite-spacing: 200px;
+$sprite-layout: diagonal;
+$sprite-sprite-dimensions: true;
+@import "sprite/*.png";

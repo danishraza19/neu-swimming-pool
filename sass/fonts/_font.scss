@@ -1,0 +1,8 @@
+/*	Incuding Custom Font*/
+@include font-face('newsgotc_normal', 
+font-files(
+'newsgotc_normal.woff', woff,
+'newsgotc_normal.ttf', ttf,
+'newsgotc_normal.svg', svg),
+'newsgotc_normal.eot');
+

@@ -1,0 +1,32 @@
+/*minibar nav*/
+.l-nav {
+    @include box-shadow(#333 0px 0px 2px);
+    background: $main-color;
+    color: #979797;    
+    padding:3px 0;    
+    position: relative;
+    z-index: 100;
+ }   
+
+/*Menu nav*/
+.l-menu {
+    overflow:hidden;
+ul {
+        @include horizontal-list;
+        background: #FFF;                                             
+        cursor: pointer;
+    }
+li {
+        @include padding-top-bottom(3%, 3%);
+        text-align: center;
+        @include single-transition(all, 300ms, ease-in-out, 0);
+        @include box-shadow(1px 0px 4px -1px #333);
+        &:hover {
+            background: $main-color;
+    }  
+}                      
+    a {
+        color: #000;
+        display: block;
+    }
+}

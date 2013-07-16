@@ -1,0 +1,33 @@
+l-header{
+
+}
+
+.l-menubar {
+    background: $main-bar-color;
+}
+
+.logo {
+    position: relative;
+    z-index: 20;
+    @include padding-top-bottom(3%, 3%);
+    a {
+        background: none;
+    }
+}
+
+.logo-video-layer {
+    @include box-shadow(inset emCalc(10px) 0px emCalc(40px) 0px $main-bar-color);/*, /*left shadow*/
+    width: 100% !important;
+    position: absolute;
+    padding-bottom: 50%;
+    z-index: 15;
+    background: rgba($main-bar-color, 0.6);
+}
+
+.l-menubar > .row > .large-4.columns .logo-background-video {
+    top: -20px;
+    width: 100% !important;
+    height: auto !important;
+    z-index: 10;
+    position: absolute;
+}

@@ -1,0 +1,41 @@
+/*  
+	Theme Name: Swimming Pool
+	Theme URI: http://soffile.com
+	Description: Olympic Swimming Pool for Near East University
+	Author: Danish Raza
+	Author URI: http://soffile.com
+	Version: 1.0.1
+	Created on :  Fir Jun 28, 19: 47: 30
+	Tags: swimming pool, olympic swimming pool,responsive theme, cyprus pool,cyprus swimming pool
+*/
+
+
+// Global Foundation Settings
+@import "foundation";
+
+/*Mian Compass file for pre-definded function*/
+@import "compass";
+
+/* Base */
+@import "base/mixins"; 
+@import "base/normalize";/*zurb foundation*/
+@import "base/settings"; /*zurb foundation variables*/
+@import "base/site-settings"; /*variables n srits etc*/
+@import "base/site-settings-load"; /* For the landing page*/
+
+/* Fonts */
+@import "fonts/font";
+
+/* Layout */
+@import "layout/nav";
+@import "layout/header";
+@import "layout/video";
+@import "layout/constrained";
+/* Modules */
+@import "module/btn";
+@import "module/icons";
+@import "module/table";
+//@import "module/minibar";
+
+/* Non-Modular */
+//@import "non-modular/organisation";

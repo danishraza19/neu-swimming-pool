@@ -1,0 +1,22 @@
+@include all-sprite-sprites;
+
+.sprite-phone {
+    display: inline-block;
+    height: 25px;
+    line-height:25px;
+    padding-left: 30px;
+    width: auto !important;
+}
+    /* Social icons */       
+.l-social {
+        line-height: 100%;
+        float: right;
+        @include horizontal-list;
+    li {
+        list-style: none;
+    }
+    	a {
+            display: block;
+            @include hide-text;
+        }
+}

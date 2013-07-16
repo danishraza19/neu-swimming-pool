@@ -1,0 +1,40 @@
+/*variabel for using*/
+//@import "base/base";
+
+/* sprites */
+$sprite-spacing: 200px;
+$sprite-layout: diagonal;
+$sprite-sprite-dimensions: true;
+@import "sprite/*.png";
+@include all-sprite-sprites;
+
+.logo h1 {
+    font-size: 15px;
+    text-align: left;
+    display: block;
+}
+
+/* Menu */
+.main-menu{
+    background-color:#43ABC8;
+    height: emCalc(70px);
+    //    text-align: center;
+}
+
+.nav_button ul{	
+    list-style:none;
+    line-height: emCalc(60px);
+    text-align:center;
+}
+
+.nav_button li {
+    width: 100px;
+    height: emCalc(70px);
+    //line-height:emCalc(60px)
+    overflow:hidden;
+    background:white;
+    float:right;
+    margin-right: 1px;
+    border:1px whiteSmoke solid;	
+    
+}
