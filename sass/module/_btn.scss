@@ -1,38 +1,21 @@
-.pool-next {
+.m-slider-Button {
     position:absolute;
     top: emCalc(50px);
     right: emCalc(44px);
     z-index: 40;
     span {
+        @include border-radius(4px);
         cursor: pointer;
         padding: 10px;
         background: rgba(#FFF, 0.8);
         float: left;
         right: emCalc(4px);
-        @include border-radius(4px);
     }
-.circle {
-    @include border-radius(100%);
-    border: 4px solid $main-background-color;
-    top: emCalc(-6px);
-    position: relative;
-    @extend span;
-    }
-}
-
-.neu-link {
-    position: absolute;
-    bottom: emCalc(20px);
-    right: emCalc(50px);
-    z-index: 40;
-    display: block;
-    a {
-        display: block;
+    .circle {
+        @include border-radius(100%);
+        border: 4px solid $main-background-color;
+        top: emCalc(-6px);
+        position: relative;
+        @extend span;
     }
 }
-
-.intro-neu-link{
-    @extend .neu-link;
-    bottom:emCalc(-80px);
-}       
- 

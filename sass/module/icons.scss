@@ -7,16 +7,25 @@
     padding-left: 30px;
     width: auto !important;
 }
-    /* Social icons */       
-.l-social {
-        line-height: 100%;
-        float: right;
-        @include horizontal-list;
-    li {
-        list-style: none;
+
+.m-link-button {
+    position: absolute;
+    bottom: emCalc(20px);
+    right: emCalc(50px);
+    z-index: 40;
+    display: block;
+    a {
+        display: block;
     }
-    	a {
-            display: block;
-            @include hide-text;
-        }
+}
+
+.m-content-link-button{
+    @extend .m-link-button;
+    bottom:emCalc(-80px);
+}       
+ 
+.m-inner-page-link-button {
+   @extend .m-link-button;
+   right:emCalc(100px);
+   bottom:emCalc(-50px);
 }

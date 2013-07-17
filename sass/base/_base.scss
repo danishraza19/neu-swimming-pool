@@ -1,0 +1,41 @@
+// Default Styles for all Tables
+
+table {
+    border-collapse:separate;
+    border-spacing:0;
+    margin:emCalc(20px) 0;
+    border: none 0;
+    thead tr,
+    tfoot tr {   
+        background: $main-background-color;
+    }
+    thead tr th,
+    tfoot tr td {
+        vertical-align: middle;
+        font-weight: 700;
+        color: #FFF;
+    }
+    tbody tr td,
+    tfoot tr td,
+    thead tr th {
+        padding:5px 10px;
+    }
+    
+    tbody tr { 
+        td {
+            color: #FFF;
+        }
+        &:nth-child(odd) {
+            background:#1c6d7d;
+            td {
+                border-right: 1px solid $main-background-color;
+                &:last-child {
+                    border-right: 0 none;
+                }
+            }
+        }
+        &:nth-child(even) {
+            background: $main-background-color;
+        }
+    }
+}

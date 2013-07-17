@@ -1,3 +1,17 @@
 .logo-video{
 	overflow:hidden;
 }
+// Flash SwimmingPool View
+.m-tour {
+    width: 100%; 
+    height: emCalc(460px);
+}
+
+.m-pool-video {
+    @extend .m-tour; //Flash class importing here
+    background:white;
+    video{
+        float:left;
+        margin-right:60px;
+    }
+}

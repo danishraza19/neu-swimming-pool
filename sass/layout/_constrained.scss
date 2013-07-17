@@ -1,11 +1,10 @@
 .l-constrained-wrapper {
- 
+    //conrtained-wrapper class here
 }
 
 .l-constrained {
     @include box-shadow(inset 0 -100px 100px 75px $main-background-color);
     position: relative;
-     // z-index: -10; 
     img {
         position: relative;
         z-index: -100;
@@ -17,28 +16,16 @@
     position:absolute;
     top:10%;
     margin: emCalc(1px);
-.flash {
-    width: 100%; 
-    height: emCalc(460px);
-}
-.swimming-video {
-    @extend .flash;
-    background:white;
-        video{
-            float:left;
-            margin-right:60px;
-        }
-    }
 }
 
-.single-news {
+
+.post {
     position: absolute;
     bottom: emCalc(150px);
     left: emCalc(50px);
     z-index: 40;
     color: #FFF;
     background: rgba($main-background-color, 0.9); 
-    /*@include border-radius (10px);*/
     @include box-shadow(0 0 50px 50px rgba($main-background-color, 0.9));
     display: table;
 }
@@ -70,29 +57,12 @@
     color: #FFF;
 }
 
-.intro {
-    color:#FFF;
-    > h1{
-    color:#FFF;            
-    }
-}
-
-.intro-img {
-    width:100%;
-    height:300px;
-
-}
-.intro-text {
-    padding:emCalc(5px);
-    margin-left:emCalc(100px);
-    margin-right:emCalc(100px);
-    text-align:justify;
-}
 .border {
     position:relative;
-    bottom:emCalc(-100px);
+    top:emCalc(100px);
     border:1px solid #FFF;
 }
-.intro-text .subpage {
+
+.m-content-text .subpage {
     padding:emCalc(10px);   
 }

@@ -18,10 +18,11 @@
 
 /* Base */
 @import "base/mixins"; 
-@import "base/normalize";/*zurb foundation*/
+@import "base/normalize";/* by zurb foundation*/
 @import "base/settings"; /*zurb foundation variables*/
 @import "base/site-settings"; /*variables n srits etc*/
 @import "base/site-settings-load"; /* For the landing page*/
+@import "base/base"; /* For the landing page*/
 
 /* Fonts */
 @import "fonts/font";
@@ -35,6 +36,8 @@
 @import "module/btn";
 @import "module/icons";
 @import "module/table";
+@import "module/content";
+
 //@import "module/minibar";
 
 /* Non-Modular */

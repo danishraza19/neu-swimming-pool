@@ -2000,13 +2000,13 @@ label.inline {
 }
 
 /* Separate prefix and postfix styles when on span so buttons keep their own */
-span.prefix, .pool-next .prefix.circle {
+span.prefix, .m-slider-Button .prefix.circle {
   background: #f2f2f2;
   border-color: #d9d9d9;
   border-right: none;
   color: #333333;
 }
-span.prefix.radius, .pool-next .prefix.radius.circle {
+span.prefix.radius, .m-slider-Button .prefix.radius.circle {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-bottomleft: 3px;
@@ -2017,13 +2017,13 @@ span.prefix.radius, .pool-next .prefix.radius.circle {
   border-top-left-radius: 3px;
 }
 
-span.postfix, .pool-next .postfix.circle {
+span.postfix, .m-slider-Button .postfix.circle {
   background: #f2f2f2;
   border-color: #cccccc;
   border-left: none;
   color: #333333;
 }
-span.postfix.radius, .pool-next .postfix.radius.circle {
+span.postfix.radius, .m-slider-Button .postfix.radius.circle {
   -webkit-border-radius: 0;
   border-radius: 0;
   -moz-border-radius-topright: 3px;
@@ -2612,7 +2612,7 @@ form.custom .custom.disabled {
   position: relative;
   padding-right: 4.8em;
 }
-.split.button span, .split.button .pool-next .circle, .pool-next .split.button .circle {
+.split.button span, .split.button .m-slider-Button .circle, .m-slider-Button .split.button .circle {
   display: block;
   height: 100%;
   position: absolute;
@@ -2620,7 +2620,7 @@ form.custom .custom.disabled {
   top: 0;
   border-left: solid 1px;
 }
-.split.button span:before, .split.button .pool-next .circle:before, .pool-next .split.button .circle:before {
+.split.button span:before, .split.button .m-slider-Button .circle:before, .m-slider-Button .split.button .circle:before {
   position: absolute;
   content: "";
   width: 0;
@@ -2629,43 +2629,43 @@ form.custom .custom.disabled {
   border-style: inset;
   left: 50%;
 }
-.split.button span:active, .split.button .pool-next .circle:active, .pool-next .split.button .circle:active {
+.split.button span:active, .split.button .m-slider-Button .circle:active, .m-slider-Button .split.button .circle:active {
   background-color: rgba(0, 0, 0, 0.1);
 }
-.split.button span, .split.button .pool-next .circle, .pool-next .split.button .circle {
+.split.button span, .split.button .m-slider-Button .circle, .m-slider-Button .split.button .circle {
   border-left-color: #1e728c;
 }
-.split.button span, .split.button .pool-next .circle, .pool-next .split.button .circle {
+.split.button span, .split.button .m-slider-Button .circle, .m-slider-Button .split.button .circle {
   width: 3em;
 }
-.split.button span:before, .split.button .pool-next .circle:before, .pool-next .split.button .circle:before {
+.split.button span:before, .split.button .m-slider-Button .circle:before, .m-slider-Button .split.button .circle:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 1.125em;
   margin-left: -0.5625em;
 }
-.split.button span:before, .split.button .pool-next .circle:before, .pool-next .split.button .circle:before {
+.split.button span:before, .split.button .m-slider-Button .circle:before, .m-slider-Button .split.button .circle:before {
   border-color: white transparent transparent transparent;
 }
-.split.button.secondary span, .split.button.secondary .pool-next .circle, .pool-next .split.button.secondary .circle {
+.split.button.secondary span, .split.button.secondary .m-slider-Button .circle, .m-slider-Button .split.button.secondary .circle {
   border-left-color: #c3c3c3;
 }
-.split.button.secondary span:before, .split.button.secondary .pool-next .circle:before, .pool-next .split.button.secondary .circle:before {
+.split.button.secondary span:before, .split.button.secondary .m-slider-Button .circle:before, .m-slider-Button .split.button.secondary .circle:before {
   border-color: white transparent transparent transparent;
 }
-.split.button.alert span, .split.button.alert .pool-next .circle, .pool-next .split.button.alert .circle {
+.split.button.alert span, .split.button.alert .m-slider-Button .circle, .m-slider-Button .split.button.alert .circle {
   border-left-color: #7f0a0c;
 }
-.split.button.success span, .split.button.success .pool-next .circle, .pool-next .split.button.success .circle {
+.split.button.success span, .split.button.success .m-slider-Button .circle, .m-slider-Button .split.button.success .circle {
   border-left-color: #396516;
 }
 .split.button.tiny {
   padding-right: 3.9375em;
 }
-.split.button.tiny span, .split.button.tiny .pool-next .circle, .pool-next .split.button.tiny .circle {
+.split.button.tiny span, .split.button.tiny .m-slider-Button .circle, .m-slider-Button .split.button.tiny .circle {
   width: 2.84375em;
 }
-.split.button.tiny span:before, .split.button.tiny .pool-next .circle:before, .pool-next .split.button.tiny .circle:before {
+.split.button.tiny span:before, .split.button.tiny .m-slider-Button .circle:before, .m-slider-Button .split.button.tiny .circle:before {
   border-top-style: solid;
   border-width: 0.4375em;
   top: 0.875em;
@@ -2674,10 +2674,10 @@ form.custom .custom.disabled {
 .split.button.small {
   padding-right: 3.9375em;
 }
-.split.button.small span, .split.button.small .pool-next .circle, .pool-next .split.button.small .circle {
+.split.button.small span, .split.button.small .m-slider-Button .circle, .m-slider-Button .split.button.small .circle {
   width: 2.8125em;
 }
-.split.button.small span:before, .split.button.small .pool-next .circle:before, .pool-next .split.button.small .circle:before {
+.split.button.small span:before, .split.button.small .m-slider-Button .circle:before, .m-slider-Button .split.button.small .circle:before {
   border-top-style: solid;
   border-width: 0.5625em;
   top: 0.84375em;
@@ -2686,10 +2686,10 @@ form.custom .custom.disabled {
 .split.button.large {
   padding-right: 6em;
 }
-.split.button.large span, .split.button.large .pool-next .circle, .pool-next .split.button.large .circle {
+.split.button.large span, .split.button.large .m-slider-Button .circle, .m-slider-Button .split.button.large .circle {
   width: 3.75em;
 }
-.split.button.large span:before, .split.button.large .pool-next .circle:before, .pool-next .split.button.large .circle:before {
+.split.button.large span:before, .split.button.large .m-slider-Button .circle:before, .m-slider-Button .split.button.large .circle:before {
   border-top-style: solid;
   border-width: 0.625em;
   top: 1.3125em;
@@ -2698,10 +2698,10 @@ form.custom .custom.disabled {
 .split.button.expand {
   padding-left: 2em;
 }
-.split.button.secondary span:before, .split.button.secondary .pool-next .circle:before, .pool-next .split.button.secondary .circle:before {
+.split.button.secondary span:before, .split.button.secondary .m-slider-Button .circle:before, .m-slider-Button .split.button.secondary .circle:before {
   border-color: #333333 transparent transparent transparent;
 }
-.split.button.radius span, .split.button.radius .pool-next .circle, .pool-next .split.button.radius .circle {
+.split.button.radius span, .split.button.radius .m-slider-Button .circle, .m-slider-Button .split.button.radius .circle {
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
   -webkit-border-top-right-radius: 3px;
@@ -2709,7 +2709,7 @@ form.custom .custom.disabled {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
-.split.button.round span, .split.button.round .pool-next .circle, .pool-next .split.button.round .circle {
+.split.button.round span, .split.button.round .m-slider-Button .circle, .m-slider-Button .split.button.round .circle {
   -moz-border-radius-topright: 1000px;
   -moz-border-radius-bottomright: 1000px;
   -webkit-border-top-right-radius: 1000px;
@@ -3359,7 +3359,7 @@ form.custom .custom.disabled {
   padding: 0;
   color: white;
 }
-.top-bar .toggle-topbar.menu-icon a span, .top-bar .toggle-topbar.menu-icon a .pool-next .circle, .pool-next .top-bar .toggle-topbar.menu-icon a .circle {
+.top-bar .toggle-topbar.menu-icon a span, .top-bar .toggle-topbar.menu-icon a .m-slider-Button .circle, .m-slider-Button .top-bar .toggle-topbar.menu-icon a .circle {
   position: absolute;
   right: 0;
   display: block;
@@ -3378,7 +3378,7 @@ form.custom .custom.disabled {
 .top-bar.expanded .toggle-topbar a {
   color: #888888;
 }
-.top-bar.expanded .toggle-topbar a span, .top-bar.expanded .toggle-topbar a .pool-next .circle, .pool-next .top-bar.expanded .toggle-topbar a .circle {
+.top-bar.expanded .toggle-topbar a span, .top-bar.expanded .toggle-topbar a .m-slider-Button .circle, .m-slider-Button .top-bar.expanded .toggle-topbar a .circle {
   -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
   box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
 }
@@ -3800,7 +3800,7 @@ form.custom .custom.disabled {
   color: white;
   background: rgba(0, 0, 0, 0);
 }
-.orbit-container .orbit-slide-number span, .orbit-container .orbit-slide-number .pool-next .circle, .pool-next .orbit-container .orbit-slide-number .circle {
+.orbit-container .orbit-slide-number span, .orbit-container .orbit-slide-number .m-slider-Button .circle, .m-slider-Button .orbit-container .orbit-slide-number .circle {
   font-weight: 700;
   padding: 0.3125em;
 }
@@ -3818,7 +3818,7 @@ form.custom .custom.disabled {
   display: block;
   width: 0%;
 }
-.orbit-container .orbit-timer > span, .orbit-container .pool-next .orbit-timer > .circle, .pool-next .orbit-container .orbit-timer > .circle {
+.orbit-container .orbit-timer > span, .orbit-container .m-slider-Button .orbit-timer > .circle, .m-slider-Button .orbit-container .orbit-timer > .circle {
   display: none;
   position: absolute;
   top: 10px;
@@ -3829,7 +3829,7 @@ form.custom .custom.disabled {
   border-top: none;
   border-bottom: none;
 }
-.orbit-container .orbit-timer.paused > span, .orbit-container .pool-next .orbit-timer.paused > .circle, .pool-next .orbit-container .orbit-timer.paused > .circle {
+.orbit-container .orbit-timer.paused > span, .orbit-container .m-slider-Button .orbit-timer.paused > .circle, .m-slider-Button .orbit-container .orbit-timer.paused > .circle {
   right: -6px;
   top: 9px;
   width: 11px;
@@ -3838,7 +3838,7 @@ form.custom .custom.disabled {
   border-right-style: solid;
   border-color: transparent transparent transparent #000;
 }
-.orbit-container:hover .orbit-timer > span, .orbit-container:hover .pool-next .orbit-timer > .circle, .pool-next .orbit-container:hover .orbit-timer > .circle {
+.orbit-container:hover .orbit-timer > span, .orbit-container:hover .m-slider-Button .orbit-timer > .circle, .m-slider-Button .orbit-container:hover .orbit-timer > .circle {
   display: block;
 }
 .orbit-container .orbit-prev,
@@ -3854,10 +3854,10 @@ form.custom .custom.disabled {
   color: white;
   text-indent: -9999px !important;
 }
-.orbit-container .orbit-prev > span, .orbit-container .pool-next .orbit-prev > .circle, .pool-next .orbit-container .orbit-prev > .circle,
+.orbit-container .orbit-prev > span, .orbit-container .m-slider-Button .orbit-prev > .circle, .m-slider-Button .orbit-container .orbit-prev > .circle,
 .orbit-container .orbit-next > span,
-.orbit-container .pool-next .orbit-next > .circle,
-.pool-next .orbit-container .orbit-next > .circle {
+.orbit-container .m-slider-Button .orbit-next > .circle,
+.m-slider-Button .orbit-container .orbit-next > .circle {
   position: absolute;
   top: 50%;
   margin-top: -16px;
@@ -3869,25 +3869,25 @@ form.custom .custom.disabled {
 .orbit-container .orbit-prev {
   left: 0;
 }
-.orbit-container .orbit-prev > span, .orbit-container .pool-next .orbit-prev > .circle, .pool-next .orbit-container .orbit-prev > .circle {
+.orbit-container .orbit-prev > span, .orbit-container .m-slider-Button .orbit-prev > .circle, .m-slider-Button .orbit-container .orbit-prev > .circle {
   border-right-style: solid;
   border-color: transparent;
   border-right-color: #fff;
 }
-.orbit-container .orbit-prev:hover > span, .orbit-container .pool-next .orbit-prev:hover > .circle, .pool-next .orbit-container .orbit-prev:hover > .circle {
+.orbit-container .orbit-prev:hover > span, .orbit-container .m-slider-Button .orbit-prev:hover > .circle, .m-slider-Button .orbit-container .orbit-prev:hover > .circle {
   border-right-color: #ccc;
 }
 .orbit-container .orbit-next {
   right: 0;
 }
-.orbit-container .orbit-next > span, .orbit-container .pool-next .orbit-next > .circle, .pool-next .orbit-container .orbit-next > .circle {
+.orbit-container .orbit-next > span, .orbit-container .m-slider-Button .orbit-next > .circle, .m-slider-Button .orbit-container .orbit-next > .circle {
   border-color: transparent;
   border-left-style: solid;
   border-left-color: #fff;
   left: 50%;
   margin-left: -8px;
 }
-.orbit-container .orbit-next:hover > span, .orbit-container .pool-next .orbit-next:hover > .circle, .pool-next .orbit-container .orbit-next:hover > .circle {
+.orbit-container .orbit-next:hover > span, .orbit-container .m-slider-Button .orbit-next:hover > .circle, .m-slider-Button .orbit-container .orbit-next:hover > .circle {
   border-left-color: #ccc;
 }
 
@@ -4291,9 +4291,9 @@ form.custom .custom.disabled {
     width: 40px;
     top: 0;
   }
-  .clearing-main-prev > span, .pool-next .clearing-main-prev > .circle,
+  .clearing-main-prev > span, .m-slider-Button .clearing-main-prev > .circle,
   .clearing-main-next > span,
-  .pool-next .clearing-main-next > .circle {
+  .m-slider-Button .clearing-main-next > .circle {
     position: absolute;
     top: 50%;
     display: block;
@@ -4305,7 +4305,7 @@ form.custom .custom.disabled {
   .clearing-main-prev {
     left: 0;
   }
-  .clearing-main-prev > span, .pool-next .clearing-main-prev > .circle {
+  .clearing-main-prev > span, .m-slider-Button .clearing-main-prev > .circle {
     left: 5px;
     border-color: transparent;
     border-right-color: white;
@@ -4314,7 +4314,7 @@ form.custom .custom.disabled {
   .clearing-main-next {
     right: 0;
   }
-  .clearing-main-next > span, .pool-next .clearing-main-next > .circle {
+  .clearing-main-next > span, .m-slider-Button .clearing-main-next > .circle {
     border-color: transparent;
     border-left-color: white;
   }
@@ -4458,8 +4458,8 @@ form.custom .custom.disabled {
 }
 .breadcrumbs > * a,
 .breadcrumbs > * span,
-.breadcrumbs > * .pool-next .circle,
-.pool-next .breadcrumbs > * .circle {
+.breadcrumbs > * .m-slider-Button .circle,
+.m-slider-Button .breadcrumbs > * .circle {
   text-transform: uppercase;
   color: #2ba6cb;
 }
@@ -4875,7 +4875,7 @@ ul.pagination li {
   div.switch input:hover, div.switch input:focus {
     cursor: pointer;
   }
-  div.switch span:last-child, div.switch .pool-next .circle:last-child, .pool-next div.switch .circle:last-child {
+  div.switch span:last-child, div.switch .m-slider-Button .circle:last-child, .m-slider-Button div.switch .circle:last-child {
     position: absolute;
     top: -1px;
     left: -1px;
@@ -4900,32 +4900,32 @@ ul.pagination li {
   }
   div.switch input:first-of-type + label,
   div.switch input:first-of-type + span + label,
-  div.switch .pool-next input:first-of-type + .circle + label,
-  .pool-next div.switch input:first-of-type + .circle + label {
+  div.switch .m-slider-Button input:first-of-type + .circle + label,
+  .m-slider-Button div.switch input:first-of-type + .circle + label {
     left: -50%;
   }
   div.switch input:first-of-type:checked + label,
   div.switch input:first-of-type:checked + span + label,
-  div.switch .pool-next input:first-of-type:checked + .circle + label,
-  .pool-next div.switch input:first-of-type:checked + .circle + label {
+  div.switch .m-slider-Button input:first-of-type:checked + .circle + label,
+  .m-slider-Button div.switch input:first-of-type:checked + .circle + label {
     left: 0%;
   }
   div.switch input:last-of-type + label,
   div.switch input:last-of-type + span + label,
-  div.switch .pool-next input:last-of-type + .circle + label,
-  .pool-next div.switch input:last-of-type + .circle + label {
+  div.switch .m-slider-Button input:last-of-type + .circle + label,
+  .m-slider-Button div.switch input:last-of-type + .circle + label {
     right: -50%;
     left: auto;
     text-align: right;
   }
   div.switch input:last-of-type:checked + label,
   div.switch input:last-of-type:checked + span + label,
-  div.switch .pool-next input:last-of-type:checked + .circle + label,
-  .pool-next div.switch input:last-of-type:checked + .circle + label {
+  div.switch .m-slider-Button input:last-of-type:checked + .circle + label,
+  .m-slider-Button div.switch input:last-of-type:checked + .circle + label {
     right: 0%;
     left: auto;
   }
-  div.switch span.custom, div.switch .pool-next .custom.circle, .pool-next div.switch .custom.circle {
+  div.switch span.custom, div.switch .m-slider-Button .custom.circle, .m-slider-Button div.switch .custom.circle {
     display: none !important;
   }
   form.custom div.switch .hidden-field {
@@ -4938,15 +4938,15 @@ ul.pagination li {
     line-height: 2.3em;
     font-size: 0.875em;
   }
-  div.switch input:first-of-type:checked ~ span:last-child, div.switch .pool-next input:first-of-type:checked ~ .circle:last-child, .pool-next div.switch input:first-of-type:checked ~ .circle:last-child {
+  div.switch input:first-of-type:checked ~ span:last-child, div.switch .m-slider-Button input:first-of-type:checked ~ .circle:last-child, .m-slider-Button div.switch input:first-of-type:checked ~ .circle:last-child {
     left: 100%;
     margin-left: -2.1875em;
   }
-  div.switch span:last-child, div.switch .pool-next .circle:last-child, .pool-next div.switch .circle:last-child {
+  div.switch span:last-child, div.switch .m-slider-Button .circle:last-child, .m-slider-Button div.switch .circle:last-child {
     width: 2.25em;
     height: 2.25em;
   }
-  div.switch span:last-child, div.switch .pool-next .circle:last-child, .pool-next div.switch .circle:last-child {
+  div.switch span:last-child, div.switch .m-slider-Button .circle:last-child, .m-slider-Button div.switch .circle:last-child {
     border-color: #b3b3b3;
     background: white;
     background: -moz-linear-gradient(top, white 0%, #f2f2f2 100%);
@@ -4955,7 +4955,7 @@ ul.pagination li {
     -webkit-box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 1000px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
     box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #e1f5d1, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
   }
-  div.switch:hover span:last-child, div.switch:hover .pool-next .circle:last-child, .pool-next div.switch:hover .circle:last-child, div.switch:focus span:last-child, div.switch:focus .pool-next .circle:last-child, .pool-next div.switch:focus .circle:last-child {
+  div.switch:hover span:last-child, div.switch:hover .m-slider-Button .circle:last-child, .m-slider-Button div.switch:hover .circle:last-child, div.switch:focus span:last-child, div.switch:focus .m-slider-Button .circle:last-child, .m-slider-Button div.switch:focus .circle:last-child {
     background: white;
     background: -moz-linear-gradient(top, white 0%, #e6e6e6 100%);
     background: -webkit-linear-gradient(top, white 0%, #e6e6e6 100%);
@@ -4972,11 +4972,11 @@ ul.pagination li {
     line-height: 2.3em;
     font-size: 1.0625em;
   }
-  div.switch.large input:first-of-type:checked ~ span:last-child, div.switch.large .pool-next input:first-of-type:checked ~ .circle:last-child, .pool-next div.switch.large input:first-of-type:checked ~ .circle:last-child {
+  div.switch.large input:first-of-type:checked ~ span:last-child, div.switch.large .m-slider-Button input:first-of-type:checked ~ .circle:last-child, .m-slider-Button div.switch.large input:first-of-type:checked ~ .circle:last-child {
     left: 100%;
     margin-left: -2.6875em;
   }
-  div.switch.large span:last-child, div.switch.large .pool-next .circle:last-child, .pool-next div.switch.large .circle:last-child {
+  div.switch.large span:last-child, div.switch.large .m-slider-Button .circle:last-child, .m-slider-Button div.switch.large .circle:last-child {
     width: 2.75em;
     height: 2.75em;
   }
@@ -4988,11 +4988,11 @@ ul.pagination li {
     line-height: 2.1em;
     font-size: 0.75em;
   }
-  div.switch.small input:first-of-type:checked ~ span:last-child, div.switch.small .pool-next input:first-of-type:checked ~ .circle:last-child, .pool-next div.switch.small input:first-of-type:checked ~ .circle:last-child {
+  div.switch.small input:first-of-type:checked ~ span:last-child, div.switch.small .m-slider-Button input:first-of-type:checked ~ .circle:last-child, .m-slider-Button div.switch.small input:first-of-type:checked ~ .circle:last-child {
     left: 100%;
     margin-left: -1.6875em;
   }
-  div.switch.small span:last-child, div.switch.small .pool-next .circle:last-child, .pool-next div.switch.small .circle:last-child {
+  div.switch.small span:last-child, div.switch.small .m-slider-Button .circle:last-child, .m-slider-Button div.switch.small .circle:last-child {
     width: 1.75em;
     height: 1.75em;
   }
@@ -5004,11 +5004,11 @@ ul.pagination li {
     line-height: 1.9em;
     font-size: 0.6875em;
   }
-  div.switch.tiny input:first-of-type:checked ~ span:last-child, div.switch.tiny .pool-next input:first-of-type:checked ~ .circle:last-child, .pool-next div.switch.tiny input:first-of-type:checked ~ .circle:last-child {
+  div.switch.tiny input:first-of-type:checked ~ span:last-child, div.switch.tiny .m-slider-Button input:first-of-type:checked ~ .circle:last-child, .m-slider-Button div.switch.tiny input:first-of-type:checked ~ .circle:last-child {
     left: 100%;
     margin-left: -1.3125em;
   }
-  div.switch.tiny span:last-child, div.switch.tiny .pool-next .circle:last-child, .pool-next div.switch.tiny .circle:last-child {
+  div.switch.tiny span:last-child, div.switch.tiny .m-slider-Button .circle:last-child, .m-slider-Button div.switch.tiny .circle:last-child {
     width: 1.375em;
     height: 1.375em;
   }
@@ -5016,7 +5016,7 @@ ul.pagination li {
     -webkit-border-radius: 4px;
     border-radius: 4px;
   }
-  div.switch.radius span:last-child, div.switch.radius .pool-next .circle:last-child, .pool-next div.switch.radius .circle:last-child {
+  div.switch.radius span:last-child, div.switch.radius .m-slider-Button .circle:last-child, .m-slider-Button div.switch.radius .circle:last-child {
     -webkit-border-radius: 3px;
     border-radius: 3px;
   }
@@ -5024,7 +5024,7 @@ ul.pagination li {
     -webkit-border-radius: 1000px;
     border-radius: 1000px;
   }
-  div.switch.round span:last-child, div.switch.round .pool-next .circle:last-child, .pool-next div.switch.round .circle:last-child {
+  div.switch.round span:last-child, div.switch.round .m-slider-Button .circle:last-child, .m-slider-Button div.switch.round .circle:last-child {
     -webkit-border-radius: 999px;
     border-radius: 999px;
   }
@@ -5685,7 +5685,7 @@ table {
   border-spacing: 0;
 }
 
-/*zurb foundation*/
+/* by zurb foundation*/
 /*zurb foundation variables*/
 /* mini-bar main color */
 /* sprites */
@@ -5696,6 +5696,44 @@ table {
 /*variables n srits etc*/
 body {
   font-family: 'newsgotc_normal', sans-serif;
+  background: #00050b;
+}
+
+/* For the landing page*/
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.25em 0;
+  border: none 0;
+}
+table thead tr,
+table tfoot tr {
+  background: #00050b;
+}
+table thead tr th,
+table tfoot tr td {
+  vertical-align: middle;
+  font-weight: 700;
+  color: #FFF;
+}
+table tbody tr td,
+table tfoot tr td,
+table thead tr th {
+  padding: 5px 10px;
+}
+table tbody tr td {
+  color: #FFF;
+}
+table tbody tr:nth-child(odd) {
+  background: #1c6d7d;
+}
+table tbody tr:nth-child(odd) td {
+  border-right: 1px solid #00050b;
+}
+table tbody tr:nth-child(odd) td:last-child {
+  border-right: 0 none;
+}
+table tbody tr:nth-child(even) {
   background: #00050b;
 }
 
@@ -5774,6 +5812,45 @@ body {
   display: block;
 }
 
+/* Social icons */
+.l-social {
+  line-height: 100%;
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+.l-social li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.l-social li:first-child, .l-social li.first {
+  padding-left: 0;
+}
+.l-social li:last-child {
+  padding-right: 0;
+}
+.l-social li.last {
+  padding-right: 0;
+}
+.l-social li {
+  list-style: none;
+}
+.l-social a {
+  display: block;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+}
+
 .l-menubar {
   background: #07c0da;
 }
@@ -5812,6 +5889,19 @@ body {
   overflow: hidden;
 }
 
+.m-tour, .m-pool-video {
+  width: 100%;
+  height: 28.75em;
+}
+
+.m-pool-video {
+  background: white;
+}
+.m-pool-video video {
+  float: left;
+  margin-right: 60px;
+}
+
 .l-constrained {
   -webkit-box-shadow: inset 0 -100px 100px 75px #00050b;
   -moz-box-shadow: inset 0 -100px 100px 75px #00050b;
@@ -5829,26 +5919,14 @@ body {
   top: 10%;
   margin: 0.0625em;
 }
-.l-constrained > .row .flash, .l-constrained > .row .swimming-video {
-  width: 100%;
-  height: 28.75em;
-}
-.l-constrained > .row .swimming-video {
-  background: white;
-}
-.l-constrained > .row .swimming-video video {
-  float: left;
-  margin-right: 60px;
-}
 
-.single-news {
+.post {
   position: absolute;
   bottom: 9.375em;
   left: 3.125em;
   z-index: 40;
   color: #FFF;
   background: rgba(0, 5, 11, 0.9);
-  /*@include border-radius (10px);*/
   -webkit-box-shadow: 0 0 50px 50px rgba(0, 5, 11, 0.9);
   -moz-box-shadow: 0 0 50px 50px rgba(0, 5, 11, 0.9);
   box-shadow: 0 0 50px 50px rgba(0, 5, 11, 0.9);
@@ -5883,55 +5961,36 @@ body {
   color: #FFF;
 }
 
-.intro {
-  color: #FFF;
-}
-.intro > h1 {
-  color: #FFF;
-}
-
-.intro-img {
-  width: 100%;
-  height: 300px;
-}
-
-.intro-text {
-  padding: 0.3125em;
-  margin-left: 6.25em;
-  margin-right: 6.25em;
-  text-align: justify;
-}
-
 .border {
   position: relative;
-  bottom: -6.25em;
+  top: 6.25em;
   border: 1px solid #FFF;
 }
 
-.intro-text .subpage {
+.m-content-text .subpage {
   padding: 0.625em;
 }
 
 /* Modules */
-.pool-next {
+.m-slider-Button {
   position: absolute;
   top: 3.125em;
   right: 2.75em;
   z-index: 40;
 }
-.pool-next span, .pool-next .circle {
-  cursor: pointer;
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.8);
-  float: left;
-  right: 0.25em;
+.m-slider-Button span, .m-slider-Button .circle {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  float: left;
+  right: 0.25em;
 }
-.pool-next .circle {
+.m-slider-Button .circle {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -ms-border-radius: 100%;
@@ -5940,21 +5999,6 @@ body {
   border: 4px solid #00050b;
   top: -0.375em;
   position: relative;
-}
-
-.neu-link, .intro-neu-link {
-  position: absolute;
-  bottom: 1.25em;
-  right: 3.125em;
-  z-index: 40;
-  display: block;
-}
-.neu-link a, .intro-neu-link a {
-  display: block;
-}
-
-.intro-neu-link {
-  bottom: -5em;
 }
 
 .sprite-arrow {
@@ -6058,84 +6102,26 @@ body {
   width: auto !important;
 }
 
-/* Social icons */
-.l-social {
-  line-height: 100%;
-  float: right;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1;
-}
-.l-social li {
-  list-style-image: none;
-  list-style-type: none;
-  margin-left: 0;
-  white-space: nowrap;
-  display: inline;
-  float: left;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-.l-social li:first-child, .l-social li.first {
-  padding-left: 0;
-}
-.l-social li:last-child {
-  padding-right: 0;
-}
-.l-social li.last {
-  padding-right: 0;
-}
-.l-social li {
-  list-style: none;
-}
-.l-social a {
+.m-link-button, .m-content-link-button, .m-inner-page-link-button {
+  position: absolute;
+  bottom: 1.25em;
+  right: 3.125em;
+  z-index: 40;
   display: block;
-  text-indent: -119988px;
-  overflow: hidden;
-  text-align: left;
+}
+.m-link-button a, .m-content-link-button a, .m-inner-page-link-button a {
+  display: block;
 }
 
-/* !!!! this will be carried to base.scss !!!! */
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-  margin: 1.25em 0;
-  border: none 0;
-}
-table thead tr,
-table tfoot tr {
-  background: #00050b;
-}
-table thead tr th,
-table tfoot tr td {
-  vertical-align: middle;
-  font-weight: 700;
-  color: #FFF;
-}
-table tbody tr td,
-table tfoot tr td,
-table thead tr th {
-  padding: 5px 10px;
-}
-table tbody tr td {
-  color: #FFF;
-}
-table tbody tr:nth-child(odd) {
-  background: #1c6d7d;
-}
-table tbody tr:nth-child(odd) td {
-  border-right: 1px solid #00050b;
-}
-table tbody tr:nth-child(odd) td:last-child {
-  border-right: 0 none;
-}
-table tbody tr:nth-child(even) {
-  background: #00050b;
+.m-content-link-button {
+  bottom: -5em;
 }
 
-/* !!!! this will be carried to base.scss !!!! */
+.m-inner-page-link-button {
+  right: 6.25em;
+  bottom: -3.125em;
+}
+
 .table {
   width: 100%;
   font-size: 1.875em;
@@ -6146,32 +6132,21 @@ table tbody tr:nth-child(even) {
   text-align: center;
 }
 
-/*    table 
-    
-    table border classes start 
-    table .bottom_left {
-    border-radius-bottomleft:2px;
-    -webkit-border-bottom-left-radius:2px;
-    border-bottom-left-radius:2px;
-    }
-    
-    table .bottom_right {
-    border-radius-bottomright:2px;
-    -webkit-border-bottom-right-radius:2px;
-    border-bottom-right-radius:2px;
-    }
-    
-    table .top_left {
-    border-radius-topleft:2px;
-    -webkit-border-top-left-radius:2px;
-    border-top-left-radius:2px;
-    }
-    
-    table .top_right {
-    border-radius-topright:2px;
-    -webkit-border-top-right-radius:2px;
-    border-top-right-radius:2px;
-    }
-    
-table border classes end */
+.m-content {
+  color: #FFF;
+}
+.m-content h1 {
+  color: #FFF;
+}
+
+.m-content-img {
+  width: 100%;
+  height: 300px;
+}
+
+.m-content-text {
+  padding: 0.3125em;
+  text-align: justify;
+}
+
 /* Non-Modular */
