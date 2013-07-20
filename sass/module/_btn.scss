@@ -1,21 +1,39 @@
-.m-slider-Button {
-    position:absolute;
-    top: emCalc(50px);
-    right: emCalc(44px);
+// .m-link-button {
+//     position: absolute;
+//     bottom: emCalc(20px);
+//     right: emCalc(50px);
+//     z-index: 40;
+//     display: block;
+//         a {
+//             display: block;
+//         }
+//         &.inner-page-button {
+//             right:emCalc(100px);
+//             bottom:emCalc(-50px);
+//         }
+//         &.intro-button{
+//             @extend .m-link-button;
+//             bottom:emCalc(-80px);
+//         }       
+// }
+
+.m-link-button {
+    position: absolute;
+    bottom: emCalc(-90px);
+    right: 0;
     z-index: 40;
-    span {
-        @include border-radius(4px);
-        cursor: pointer;
-        padding: 10px;
-        background: rgba(#FFF, 0.8);
-        float: left;
-        right: emCalc(4px);
-    }
-    .circle {
-        @include border-radius(100%);
-        border: 4px solid $main-background-color;
-        top: emCalc(-6px);
-        position: relative;
-        @extend span;
-    }
+    display: block;
+        a {
+            display: block;
+        }
+        &.inner-page-button {
+            right:emCalc(100px);
+            bottom:emCalc(-50px);
+        }
+        &.intro-button{
+            @extend .m-link-button;
+            bottom:emCalc(-80px);
+        }       
 }
+
+

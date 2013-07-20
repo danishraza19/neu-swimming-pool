@@ -8,12 +8,6 @@ $sprite-sprite-dimensions: true;
 @import "sprite/*.png";
 @include all-sprite-sprites;
 
-.logo h1 {
-    font-size: 15px;
-    text-align: left;
-    display: block;
-}
-
 /* Menu */
 .main-menu{
     background-color:#43ABC8;

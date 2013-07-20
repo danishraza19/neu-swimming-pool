@@ -1,5 +1,16 @@
-// Default Styles for all Tables
+// // Variables
+// $ratio: $golden;
+// $base-size: 14px 44px;
 
+// // Modular Scale SCSS Function Syntax
+// h6 { font-size: ms(0); } // First Number in Scale
+// h5 { font-size: ms(1); } // Second Number in Scale
+// h4 { font-size: ms(2); } // Third Number in Scale
+
+hr{
+    border:$main-bar-color 1px solid;
+}
+// Default Styles for all Tables
 table {
     border-collapse:separate;
     border-spacing:0;

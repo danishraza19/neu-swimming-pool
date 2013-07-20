@@ -30,15 +30,17 @@
 /* Layout */
 @import "layout/nav";
 @import "layout/header";
+@import "layout/footer";
 @import "layout/video";
 @import "layout/constrained";
+
+
 /* Modules */
 @import "module/btn";
 @import "module/icons";
 @import "module/table";
 @import "module/content";
-
-//@import "module/minibar";
+@import "module/post";
 
 /* Non-Modular */
 //@import "non-modular/organisation";
